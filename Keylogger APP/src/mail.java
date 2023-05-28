@@ -44,13 +44,12 @@ public class mail extends Main{
 
 
     public void send(String receiver) throws MessagingException, IOException {
-        String baslik = "deneme1";
-        String mesaj = "bu bir deneme mailidir.";
+       
         String host = "smtp.outlook.com";
         String port = "587";
 
-        final String senderEmail = "kawhi2ceng@outlook.com";
-        final String senderPassword = "ar478478";
+        final String senderEmail = "YOUR EMAİL";
+        final String senderPassword = "YOUR PASSWORD";
 
 
         Properties props = new Properties();
