@@ -85,26 +85,6 @@ public class mail extends Main{
         msg.setContent(multipart);
         Transport.send(msg);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
             msg.setSubject(baslik);
 
             msg.setText(mesaj);
